@@ -1,0 +1,23 @@
+create database emp_db;
+use emp_db;
+create table employee (employeeId int primary key auto_increment, employeeName varchar(20), employeeSalry double, joiningDate date);
+insert into employee values(101, "Raj", "50000", "2022-01-01");
+insert into employee values(102, "Amit", "70000", "2021-07-01");
+insert into employee values(103, "Sham", "20000", "2021-08-01");
+insert into employee values(104, "tam", "90000", "2020-01-01");
+drop table department;
+create table department(departmentId int, departmentName varchar(20), employeeId int,
+constraint fk_emp foreign key(employeeId)references employee(employeeId));
+insert into department values(201, "ml", 101);
+insert into department values(202, "connectwise", 102);
+insert into department values(201, "ml", 103);
+insert into department values(201, "ml", 104);
+
+
+
+
+select count(d.departmentId), d.departmentName
+from employee e
+inner join department d
+on e.employeeId = d.employeeId
+where d.departmentName = "ml"AND e.employeeSalry>30000;
