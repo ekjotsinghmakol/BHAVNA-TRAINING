@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Class-Path: lib/spring-webmvc-5.2.4.RELEASE.jar lib/spring-aop-5.2.4.REL
+ EASE.jar lib/spring-beans-5.2.4.RELEASE.jar lib/spring-context-5.2.4.RE
+ LEASE.jar lib/spring-core-5.2.4.RELEASE.jar lib/spring-jcl-5.2.4.RELEAS
+ E.jar lib/spring-expression-5.2.4.RELEASE.jar lib/spring-web-5.2.4.RELE
+ ASE.jar lib/tomcat-jasper-9.0.12.jar lib/tomcat-servlet-api-9.0.12.jar 
+ lib/tomcat-juli-9.0.12.jar lib/tomcat-jsp-api-9.0.12.jar lib/tomcat-el-
+ api-9.0.12.jar lib/ecj-3.13.102.jar lib/tomcat-jasper-el-9.0.12.jar lib
+ /tomcat-api-9.0.12.jar lib/tomcat-util-scan-9.0.12.jar lib/tomcat-util-
+ 9.0.12.jar lib/servlet-api-3.0-alpha-1.jar lib/jstl-1.2.jar lib/mysql-c
+ onnector-java-8.0.11.jar lib/protobuf-java-2.6.0.jar lib/spring-jdbc-5.
+ 1.1.RELEASE.jar lib/spring-tx-5.1.1.RELEASE.jar
+Main-Class: com.demo.bhavna.Main
+Created-By: Maven Integration for Eclipse
+
